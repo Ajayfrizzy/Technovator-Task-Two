@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Italianno', cursive;
+}
+
+h1{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 3em;
+}
+
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 50vw;
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+}
+
+.d-grid img{
+    border-radius: 20px;
+    width: 15vw;
+    height: 20vh;
+}
+
+.d-fl{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    margin: 3em auto;
+}
+
+p{
+    text-align: end;
+}
+
+p:first-of-type{
+    font-size: 1.5em;
+    padding-top: 50px;
+}
+
+.textbox-1{
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-right: 7em;
+    width: 50vw;
+}
+
+#img{
+    width: 25vw;
+    border-radius: 20px;
+}
